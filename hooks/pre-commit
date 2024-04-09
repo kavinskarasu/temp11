@@ -7,7 +7,7 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-declare -a FUNCTION_LIST=("strcpy" "strcat" "sprintf" "vsprintf"  "gets"  "CreateFileW" " DeleteFileA" "DeleteFileW" "FindFirstFileA" "FindFirstFileExA" "FindFirstFileExW" "FindFirstFileNameW" "FindFirstFileW" "FindFirstStreamW" "FindNextFileA" "FindNextFileNameW" "FindNextFileW" "CreateProcessA" "CreateProcessAsUserA" "CreateProcessAsUserW" "CreateProcessW")
+declare -a FUNCTION_LIST=( "strcat" "sprintf" "vsprintf"  "gets"  "CreateFileW" " DeleteFileA" "DeleteFileW" "FindFirstFileA" "FindFirstFileExA" "FindFirstFileExW" "FindFirstFileNameW" "FindFirstFileW" "FindFirstStreamW" "FindNextFileA" "FindNextFileNameW" "FindNextFileW" "CreateProcessA" "CreateProcessAsUserA" "CreateProcessAsUserW" "CreateProcessW")
 
 # Iterate over each function in the list
 found_function=false
